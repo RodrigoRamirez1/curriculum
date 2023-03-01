@@ -10,6 +10,7 @@ table {
 .coluna1{
     background: #4A4E5A;
     width: 30%;
+    text-align: center;
 
 }
 
@@ -59,7 +60,7 @@ table {
     color:black;
     font-size: 25px;
     background-color:  #FEE7D5;
-    margin: 25px 50px;
+    margin: 15px 50px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -71,6 +72,7 @@ table {
 .dimensao {
     font-weight: bold;
     color: #eb9161;
+    padding-top: 10px;
 }
 
 .margem-dados {
@@ -110,4 +112,9 @@ table {
         width: 50vw;
         height: 50vw;
     }
+
+    .dimensao-dados {
+        padding: 0px 10px;
+    }
+
 }
